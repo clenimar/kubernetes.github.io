@@ -129,7 +129,7 @@ You're ready to push your container live, but you'll need a destination. Create 
 
 ```shell
 $ docker tag myapp gcr.io/<YOUR-PROJECT-ID>/myapp
-$ gcloud docker push gcr.io/<YOUR-PROJECT-ID>/myapp
+$ gcloud docker -- push gcr.io/<YOUR-PROJECT-ID>/myapp
 ```
 
 After some time, it will finish. You can check the console to see the container has been pushed up.
